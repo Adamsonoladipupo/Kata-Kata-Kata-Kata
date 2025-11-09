@@ -17,11 +17,11 @@ public class GeneratePrimeNumbers{
 				}
 			}
 			if (checkForFactor < 2){
-				System.out.print(number + " ");
 				count++;
 			}
 			number++;
 		}
+		System.out.print((number-1) + " ");
 
 	
 	}
